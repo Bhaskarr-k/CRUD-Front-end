@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curd operation</title>
+    <link rel="stylesheet" href="style .css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onformsubmit()">
+                    <div>
+                        <label for="productcode">productcode</label>
+                        <input type="text" name="productcode" id="productcode">
+                    </div>
+                    <div>
+                        <label for="product">productName</label>
+                        <input type="text" name="product" id="product">
+                    </div>
+                    <div>
+                        <label for="quantity">quantity</label>
+                        <input type="text" name="quantity" id="quantity">
+                    </div>
+                    <div>
+                        <label for="price">price</label>
+                        <input type="number" name="price" id="price">
+                    </div>
+                    <div class="form-action-button">
+                        <input type="submit" value="submit">
+                        <input type="reset" value="reset">
+                    </div>
+                </form>
+            <td>
+                <table class="list" id="storelist">
+                    <thead>
+                        <tr>
+                            <th>productcode</th>
+                            <th>productName</th>
+                            <th>quantity</th>
+                            <th>price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </td>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
